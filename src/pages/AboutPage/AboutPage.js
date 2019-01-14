@@ -33,10 +33,10 @@ const AboutPage = (props, context) => {
               I stay close to the community and try to keep tabs with the pace at which the web is evolving. I also like to <span className="highlight">demo</span> what I learn.
             </p>
             <p>
-            React-Redux, Node.js, HTML, CSS, CI/CD and <span className="highlight">devtools</span> are the main tricks up my sleeve. I am also obsessed with <span className="highlight">making the code 100% tested</span> using testing tools viz Mocha/Enzyme for React.js codebase.
+            React-Redux, Node.js, HTML, CSS, CI/CD and <span className="highlight">devtools</span> are the main tricks up my sleeve. I am also obsessed with <span className="highlight">making the code 100% tested</span> using testing tools viz Mocha/Enzyme for React.js codebase. I believe that <span className="highlight">Agile methodology</span>, not only, helps project management but also develops a mentality of Continuous Delivery in devs.
             </p>
             <p>
-              In my free time, I enjoy playing Table Tennis, listening to music, watching Bollywood movies and spending time with my family. Moreover, I am a foodie and hence, I love exploring new restros and cuisines whenever I get time.
+              In my free time, I enjoy playing <span className="highlight">Table Tennis</span>, listening to music, watching Bollywood movies and spending time with my family. Moreover, I am a <span className="highlight">foodie</span> and hence, I love exploring new restros and cuisines whenever I get time.
             </p>
             <p className="text-emoji" style={{ color: colorPrimary }}>
               \ (•◡•) /
