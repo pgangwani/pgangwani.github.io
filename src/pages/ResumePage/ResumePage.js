@@ -6,14 +6,14 @@ import './style.scss';
 
 const ResumePage = (props, context) => {
   const {
-    theme: { colorPrimary, bgPrimary }
+    theme: { colorPrimary, bgPrimary, textPrimary  }
   } = context;
 
   return (
     <div className="resume-page" style={{ backgroundColor: bgPrimary }}>
       <div className="content-grid">
         <h1 style={{ color: colorPrimary }}>Resume</h1>
-        <div className="portfolio-wrapper">
+        <div className="portfolio-wrapper" style={{ color: textPrimary }}>
           <p> This is coming soon.. Stay tuned</p> 
         </div>
       </div>

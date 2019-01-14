@@ -25,27 +25,18 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              I like <span className="highlight">JavaScript</span> and
-              everything web.
+              I live and work in Bangalore, India. I’m happily married to my wonderful wife Namrata. If I had to describe myself in precise, it would probably be <span className="highlight">passionate</span> and <span className="highlight">focussed</span>.
+              I value a healthy work/life balance. I’m a hard worker and enjoy what I get to do everyday.
             </p>
             <p>
-              When my dev senses kick-in I build presumably{' '}
-              <span className="highlight"> awesome stuff</span>. I stay close to
-              the community and try to keep tabs with the pace at which the web
-              is evolving. I also like to{' '}
-              <span className="highlight">blog</span> what I learn.
+              Currently I’m currently working as Senior Web Developer at JCPenney. I've been here for a while and I've worked on some major self service and customer account management features targeting customers for JCPenney eCommerce site (built with react/node stack). Also, I have been actively contributing to the common devtools used by all web developers to design their pages(delivery).
+              I stay close to the community and try to keep tabs with the pace at which the web is evolving. I also like to <span className="highlight">demo</span> what I learn.
             </p>
             <p>
-              I built this site <span className="highlight">from scratch</span>.
-              By scratch, I mean <i>absolutely from scratch</i>{' '}
-              <span className="highlight">
-                without any UI library/framework
-              </span>{' '}
-              (except React though) and had so much fun along the way.
+            React-Redux, Node.js, HTML, CSS, CI/CD and <span className="highlight">devtools</span> are the main tricks up my sleeve. I am also obsessed with <span className="highlight">making the code 100% tested</span> using testing tools viz Mocha/Enzyme for React.js codebase.
             </p>
             <p>
-              React-Redux, Node.js, Ruby on Rails, Java, Spring Boot, Docker and
-              AWS are the main tricks up my sleeve. I am also obsessed with making the web look pretty with SASS/CSS.
+              In my free time, I enjoy playing Table Tennis, listening to music, watching Bollywood movies and spending time with my family. Moreover, I am a foodie and hence, I love exploring new restros and cuisines whenever I get time.
             </p>
             <p className="text-emoji" style={{ color: colorPrimary }}>
               \ (•◡•) /
