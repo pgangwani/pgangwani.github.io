@@ -36,7 +36,7 @@ const AboutPage = (props, context) => {
             React-Redux, Node.js, HTML, CSS, CI/CD and <span className="highlight">devtools</span> are the main tricks up my sleeve. I am also obsessed with <span className="highlight">making the code 100% tested</span> using testing tools viz Mocha/Enzyme for React.js codebase. I believe that <span className="highlight">Agile methodology</span>, not only, helps project management but also develops a mentality of Continuous Delivery in devs.
             </p>
             <p>
-              In my free time, I enjoy playing <span className="highlight">Table Tennis</span>, listening to music, watching Bollywood movies and spending time with my family. Moreover, I am a <span className="highlight">foodie</span> and hence, I love exploring new restros and cuisines whenever I get time.
+              In my free time, I enjoy playing <span className="highlight">Table Tennis</span> <i  className="fas fa-table-tennis"></i> , listening to music <i class="fas fa-headphones"></i>, watching Bollywood movies <i class="fas fa-film"></i> and spending time with my family <i class="fas fa-heartbeat"></i> . Moreover, I am a <span className="highlight">foodie</span> and hence, I love exploring new restros  <i class="fas fa-utensils"></i> and cuisines whenever I get time.
             </p>
             <p className="text-emoji" style={{ color: colorPrimary }}>
               \ (•◡•) /
