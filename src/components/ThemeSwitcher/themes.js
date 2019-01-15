@@ -1,7 +1,6 @@
 const themes = [
   {
     name: 'blue',
-    firstTime: true,
     colorPrimary: '#4ea9da',
     colorAlternate: '#FAFAFA',
     colorHighlight: '#daedf7',
@@ -10,7 +9,6 @@ const themes = [
   },
   {
     name: 'cyan',
-    firstTime: true,
     colorPrimary: '#3dc0b0',
     colorAlternate: '#FAFAFA',
     colorHighlight: '#d7f2ef',
@@ -19,6 +17,7 @@ const themes = [
   },
   {
     name: 'blue-alt',
+    firstTime: true,
     colorPrimary: '#FAFAFA',
     colorAlternate: '#4ea9da',
     colorHighlight: '#2a93cb',
@@ -27,6 +26,7 @@ const themes = [
   },
   {
     name: 'cyan-alt',
+    firstTime: true,
     colorPrimary: '#FAFAFA',
     colorAlternate: '#3dc0b0',
     colorHighlight: '#35a698',
@@ -75,6 +75,7 @@ const themes = [
   },
   {
     name: 'red-alt',
+    firstTime: true,
     colorPrimary: '#FFFFFF',
     colorAlternate: '#89303d',
     colorHighlight: '#63232c',
@@ -83,6 +84,7 @@ const themes = [
   },
   {
     name: 'indigo-alt',
+    firstTime: true,
     colorPrimary: '#FAFAFA',
     colorAlternate: '#303F9F',
     colorHighlight: '#242f78',
@@ -91,6 +93,7 @@ const themes = [
   },
   {
     name: 'grey-alt',
+    firstTime: true,
     colorPrimary: '#FFFFFF',
     colorAlternate: '#485564',
     colorHighlight: '#333c46',
@@ -115,7 +118,6 @@ const themes = [
   },
   {
     name: 'material-grey',
-    firstTime: true,
     colorPrimary: '#607D8B',
     colorAlternate: '#FFFFFF',
     colorHighlight: '#dfe6e9',
@@ -124,6 +126,7 @@ const themes = [
   },
   {
     name: 'material-grey-alt',
+    firstTime: true,
     colorPrimary: '#FFFFFF',
     colorAlternate: '#455A64',
     colorHighlight: '#374850',
