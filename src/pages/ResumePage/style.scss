@@ -24,11 +24,10 @@
   .resume-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+  }
 
-    @include breakpoint-small-down {
-      flex-direction: column;
-      align-items: center;
-    }
+  .resume-item + .resume-item {
+    margin-top:30px;
   }
 }

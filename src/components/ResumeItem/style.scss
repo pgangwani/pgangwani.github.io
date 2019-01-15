@@ -1,0 +1,47 @@
+@import 'breakpoints';
+$border-radius: 2px;
+
+.resume-item {
+  display: flex;
+  flex-direction: column;
+
+  h2, h3 {
+    font-weight: 400;
+  }
+
+  ul {
+    list-style: disc outside;
+    margin: 10px 20px;
+  }
+
+  li {
+    margin-left: 20px;
+    line-height: 1.25rem;
+  }
+
+  ul, p {
+    font-size: 0.875rem;
+  }
+
+  p {
+    line-height: 1.5rem;
+    opacity: 0.8;
+    // padding: 0.5rem 0;
+  }
+
+  .skills-list {
+    font-size: 0.875rem;
+    > div {
+      display: inline-block;
+      padding: 2px 10px;
+      border: 1px solid;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-top: 10px;
+
+      &:empty {
+        display: none;
+      }
+    }
+  }
+}
