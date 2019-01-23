@@ -12,6 +12,9 @@ $border-radius: 2px;
   ul {
     list-style: disc outside;
     margin: 10px 20px;
+    @include breakpoint-small-down {
+      margin: 5px;
+    }
   }
 
   li {

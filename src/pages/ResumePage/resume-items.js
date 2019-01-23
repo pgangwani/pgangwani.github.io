@@ -15,15 +15,60 @@ export default [{
           </ul>
     </div>
   )
+},{
+  name: 'Sapient',
+  render: (
+    <div className="resume-item">
+          <h3>Senior Associate, Sapient</h3>
+          <p><i>Nov/2015 - Jul/2017</i></p>
+          <ul>
+            <li>Focus on building various content website for clients </li>
+            <li>Developing Reusable components used by different local/ themes</li>
+            <li>Integrate UI components with AEM CMS</li>
+            <li>Active participation in XT events held yearly/half yearly</li>
+          </ul>
+    </div>
+  )
+},{
+  name: 'Deloitte',
+  render: (
+    <div className="resume-item">
+          <h3>Business Technology Analyst, Deloitte</h3>
+          <p><i>Apr/2015 - Nov/2017</i></p>
+          <ul>
+            <li>Building online retail website for papamurphys.com, US pizza retail</li>
+            <li>Designed and developed responsive website, with mobile first approach</li>
+            <li>Collaborating with team members across multiple locations</li>
+            <li>Work as an Agile team, adapt the mindset of Agile</li>
+          </ul>
+    </div>
+  )
+}, {
+  name: 'Wipro',
+  render: (
+    <div className="resume-item">
+          <h3>Project Engineer, Wipro</h3>
+          <p><i>June/2012 - Mar/2015</i></p>
+          <ul>
+            <li>Designed and developed responsive website for various Banking clients</li>
+            <li>Develop &amp; Maintain financial banking web application</li>
+            <li>Build user accessible based on web standards</li>
+            <li>E2E delivery for charles schwab brokerage/ financial banking website</li>
+            <li>QA support &amp; and deployment</li>
+            <li>Coach juniors and freshers, new to projects, to ramp up them quickly</li>
+          </ul>
+    </div>
+  )
 }, {
   name: 'Education',
   render: (
     <div className="resume-item">
           <h2>Education</h2>
-          <p>Nagpur University</p>
+          <p>SRCOM, Nagpur University</p>
           <p>Bachelors of Engineering</p>
+          <p>Electronics &amp; Communications</p>
           <p><i>2008-2012</i></p>
-          <p>Activities and Societies: Technology Club</p>
+          <p>Activities and Societies: Technovision Club</p>
       </div>
   )
 }, {
@@ -45,6 +90,8 @@ export default [{
         <div>Mocha/Chai &amp; Enzyme Testing</div>
         <div>Agile development</div>
         <div>CI/CD</div>
+        <div>Docker</div>
+
       </div>
     </div>
   )
