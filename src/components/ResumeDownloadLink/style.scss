@@ -1,0 +1,66 @@
+@import 'breakpoints';
+
+.resume-download {
+  padding: 2rem 0;
+  font-style: italic;
+  line-height: 2rem;
+  // opacity: 0.8;
+  font-size: 0.875rem;
+  // font-size: 3rem;
+
+  @include breakpoint-small-down {
+    // font-size: 2.5rem;
+  }
+
+  a {
+    font-size: 1.7rem;
+    padding: 0 0.625rem;
+    opacity: 1;
+    display:inline-block;
+    vertical-align: bottom;
+  }
+
+  @keyframes horizontal {
+    0% {
+      transform: translate(0,0);
+    }
+
+    6% {
+      transform: translate(10px,0);
+    }
+
+    12% {
+      transform: translate(0,0);
+    }
+
+    18% {
+      transform: translate(10px,0);
+    }
+
+    24% {
+      transform: translate(0,0);
+    }
+
+    30% {
+      transform: translate(10px,0);
+    }
+
+    36% {
+      transform: translate(0,0);
+    }
+
+    42% {
+      transform: translate(10px,0);
+    }
+    48% {
+      transform: translate(0,0);
+    }
+  }
+
+  .faa-horizontal.animated,
+  .faa-horizontal.animated-hover:hover,
+  .faa-parent.animated-hover:hover > .faa-horizontal {
+    animation: horizontal 4s ease infinite;
+  }
+
+}

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import ScrollToPrevious from '@components/ScrollToPrevious';
 import ResumeItem from '@components/ResumeItem/ResumeItem';
 import resumeitems from './resume-items';
+import ResumeDownloadLink from '@components/ResumeDownloadLink/ResumeDownloadLink'
 import './style.scss';
 
 const ResumePage = (props, context) => {
@@ -28,6 +29,7 @@ const ResumePage = (props, context) => {
           {resumeitems.map((item, i) => (
             <ResumeItem render={item.render} key={i} />
           ))}
+          <ResumeDownloadLink />
           </div>
         </div>
         <ScrollToPrevious pageSelector=".about-page" />
