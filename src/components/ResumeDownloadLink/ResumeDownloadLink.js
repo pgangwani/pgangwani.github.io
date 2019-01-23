@@ -10,7 +10,7 @@ const SocialIcons = (props, context) => {
     <div className="resume-download" style={ {color: textPrimary }}>
         {`For detailed profile, Download my resume   `}   <i class="far fa-hand-point-right"></i> 
         <a title="Click to download Pawan's Resume" className="animated faa-horizontal" 
-          href="/resume/Pawan_Gangwani_Sr_Web_Dev_v1.pdf" 
+          href="/resume/Pawan_Gangwani_Sr_Web_Dev_v2.pdf" 
           download="Pawan_Gangwani_Sr_Web_Developer" 
           style={ { color: colorPrimary } }>
           <i class="fas animated faa-horizontal fa-file-pdf"></i>
