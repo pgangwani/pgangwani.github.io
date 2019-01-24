@@ -29,7 +29,7 @@ const AboutPage = (props, context) => {
               I value a healthy work/life balance. I’m a hard worker and enjoy what I get to do everyday.
             </p>
             <p>
-              Currently I’m currently working as Senior Web Developer at JCPenney. I've been here for a while and I've worked on some major self service and customer account management features targeting customers for JCPenney eCommerce site (built with react/node stack). Also, I have been actively contributing to the common devtools used by all web developers to design their pages(delivery).
+              Currently I’m working as Senior Web Developer at JCPenney. I've been here for a while and I've worked on some major self service and customer account management features targeting customers for JCPenney eCommerce site (built with react/node stack). Also, I have been actively contributing to the common devtools used by all web developers to design their pages(delivery).
               I stay close to the community and try to keep tabs with the pace at which the web is evolving. I also like to <span className="highlight">demo</span> what I learn.
             </p>
             <p>
