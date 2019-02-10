@@ -1,7 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { hydrate, render } from 'react-dom';
 import './libs/fontawesome/fontawesome-all.min';
 import './styles/base.scss';
 import App from './App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import registerServiceWorker from './registerServiceWorker';
+
+const rootElement = document.getElementById('root');
+if (rootElement.hasChildNodes()) {
+    hydrate(<App />, rootElement);
+} else {
+    render(<App />, rootElement);
+}
+registerServiceWorker();
