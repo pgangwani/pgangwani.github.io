@@ -4,7 +4,8 @@ import './libs/fontawesome/fontawesome-all.min';
 import './styles/base.scss';
 import App from './App';
 
-import registerServiceWorker from './registerServiceWorker';
+import * as serviceWorker from './serviceWorker';
+
 
 const rootElement = document.getElementById('root');
 if (rootElement.hasChildNodes()) {
@@ -12,4 +13,5 @@ if (rootElement.hasChildNodes()) {
 } else {
     render(<App />, rootElement);
 }
-registerServiceWorker();
+
+serviceWorker.register();
