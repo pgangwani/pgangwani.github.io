@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-
+import { Helmet } from 'react-helmet';
 import { getThemes } from './themes';
 
 class ThemeSwitcher extends Component {
@@ -59,6 +59,11 @@ class ThemeSwitcher extends Component {
           }
         `}
         </style>
+        <Helmet>
+            {
+              <meta name="theme-color" content={theme.bgPrimary} />
+            }
+        </Helmet>
         { children }
       </div>
     );
