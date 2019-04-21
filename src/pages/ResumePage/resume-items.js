@@ -34,7 +34,7 @@ export default [{
   render: (
     <div className="resume-item">
           <h3>Business Technology Analyst, Deloitte</h3>
-          <p><i>Apr/2015 - Nov/2017</i></p>
+          <p><i>Apr/2015 - Nov/2015</i></p>
           <ul>
             <li>Building online retail website for papamurphys.com, US pizza retail</li>
             <li>Designed and developed responsive website, with mobile first approach</li>
