@@ -91,7 +91,7 @@ export default [{
       <h2>Skills</h2>
       <div className="skills-list">
         <div>JavaScript</div>
-        <div>ES6</div>
+        <div>ES Next</div>
         <div>HTML</div>
         <div>CSS</div>
         <div>React</div>
@@ -100,11 +100,16 @@ export default [{
         <div>Git</div>
         <div>Node</div>
         <div>Express</div>
+        <div>Hapi</div>
+        <div>SSR</div>
         <div>Mocha/Chai &amp; Enzyme Testing</div>
+        <div>React-Testing-library</div>
         <div>Agile development</div>
         <div>CI/CD</div>
         <div>Docker</div>
-
+        <div>GCP</div>
+        <div>Akamai</div>
+        <div>Micro-frontends</div>
       </div>
     </div>
   )
