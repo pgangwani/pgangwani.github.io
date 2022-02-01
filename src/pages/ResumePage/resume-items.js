@@ -4,8 +4,21 @@ export default [{
   name: 'JCPenney',
   render: (
     <div className="resume-item">
+          <h3>Lead Software Engineer, Lowes India</h3>
+          <p><i>Nov/2019 - Present</i></p>
+          <ul>
+            <li>Contributor to common framework used across multiple portfolios</li>
+            <li>Lead various redesigns of pages, fragments, and unified experience components across the sites to own horizontal unit. </li>
+            <li>Contributor/Speaker of front end community of practices and excellence unit at Lowes</li>
+          </ul>
+    </div>
+  )
+},{
+  name: 'JCPenney',
+  render: (
+    <div className="resume-item">
           <h3>Senior Web Developer, JCPenney</h3>
-          <p><i>Jul/2017 - Present</i></p>
+          <p><i>Jul/2017 - Nov/2019</i></p>
           <ul>
             <li>Leading the development of Customer Account Management tools for JCPenney customers</li>
             <li>Focus on building account microsites on JCPenney eCommerce using micro-frontend architecture </li>
