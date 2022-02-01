@@ -29,10 +29,10 @@ self.__precacheManifest = [
   },
   {
     "revision": "05f3c39b933ad092fbf2",
-    "url": "/static/css/main.e01fab80.css"
+    "url": "/static/css/main.f8dbb9a6.css"
   },
   {
-    "revision": "780ba7e23a1786fbf43c3d965f17066e",
+    "revision": "565aa5786d1ae958615167d796fa8d7e",
     "url": "/index.html"
   }
 ];
