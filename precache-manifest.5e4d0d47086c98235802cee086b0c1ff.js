@@ -24,15 +24,15 @@ self.__precacheManifest = [
     "url": "/static/media/reem-kufi-v4-latin-regular.20e4fd7e.woff"
   },
   {
-    "revision": "61f721c6d59fe46d0f68",
-    "url": "/static/js/main.61f721c6.js"
+    "revision": "775905df9d4466059a6a",
+    "url": "/static/js/main.775905df.js"
   },
   {
-    "revision": "61f721c6d59fe46d0f68",
-    "url": "/static/css/main.b1a52128.css"
+    "revision": "775905df9d4466059a6a",
+    "url": "/static/css/main.1af2c183.css"
   },
   {
-    "revision": "a8256e8041e1df7d9a6fee722785dfb9",
+    "revision": "680f99d3a369f810a3ca419d1bc4ed3a",
     "url": "/index.html"
   }
 ];
